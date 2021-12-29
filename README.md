@@ -7,5 +7,5 @@ The structure of the Navbar in the website is:-
     Team
     Courses
     Events
-    Blog
+    Articles
     ContactUs
