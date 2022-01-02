@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid red; */
+  }
+  body {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400;
+  }
+  
+  div {
+    display: block;
+    position: relative;
+  }
+  
+  main {
+    display: grid;
+    place-items: center;
+  }
+  
+  .profile-box {
+    padding: 10px 0;
+    margin-bottom: 50px;
+    text-align: center;
+  
+    width: 350px;
+    border-radius: 5px;
+    margin: 16px;
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .profile-box h3 {
+    color: #28262d;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  
+  .profile-box .member-info p {
+    color: #6e6e6e;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 0%;
+  }
+  
+  .profile-box:hover .member-info p {
+    color: #6e6e6e;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 0%;
+  }
+  
+  .profile-box .member-info a,
+  a:hover,
+  a:visited,
+  a:active,
+  a:link {
+    text-decoration: none;
+  }
+  
+  .social-btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 4px;
+  }
+  
+  .social-btn:hover {
+      transition: 0.5s ease-in;
+      color: #222;
+      background-color: #fff;
+  }
+  
+  .social-btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .round {
+    border-radius: 50% !important;
+  }
+  
+  .profile-img img {
+    height: 200px;
+    width: 200px;
+    border: 7px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-img img:hover {
+      transition: 0.5s ease-in;
+      border: 7px solid #222;
+  }
+  
+  /* Global */
+  .ml-2,
+  .mx-2 {
+    margin-left: 8px !important;
+  }
+  
+  .mr-2,
+  .mx-2 {
+    margin-right: 8px !important;
+  }
