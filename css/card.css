@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+  }
+  .article-box {
+    width: 350px;
+    border-radius: 5px;
+    background: lightgray;
+    position: relative;
+    margin: 16px;
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .article-box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgb(126, 126, 129);
+    cursor: pointer;
+  }
+  
+  .article-box a {
+      padding: 10px 0;
+      text-decoration: none;
+  }
+  
+  .article-box .banner .category {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 16px;
+    border-radius: 0 20px 20px 0;
+  }
+  
+  .article-box .banner .banner-image {
+    width: 100%;
+  }
+  
+  .article-box .article-body {
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  .article-box .article-body .article-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .article-box .article-body .article-info h3,
+  p {
+    font-size: 15px;
+  }
+  .popular {
+    background: #05c46b;
+  }
+  .tech {
+    background: #05a7c4;
+  }
+  .innovation {
+    background: #eeeb44;
+  }
