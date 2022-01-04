@@ -1,5 +1,5 @@
 # AIR_Website
-The official page of AI and Robotics Club NIT Andhra Pradesh
+The Official page of NIT Andra
 
 
 The structure of the Navbar in the website is:-
