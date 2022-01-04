@@ -1,5 +1,5 @@
 # AIR_Website
-The Official page of NIT Andra
+The Official page of NIT Andhra Pradesh
 
 
 The structure of the Navbar in the website is:-
